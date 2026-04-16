@@ -48,9 +48,9 @@ export default function Hero() {
           className="pt-8 pb-4 flex justify-center lg:justify-start"
         >
           <img
-            src="https://am-clinic-boost.lovable.app/assets/logo-am-BLN4gz2y.png"
+            src={logoAm}
             alt="AM Clínica de Medicina do Trabalho"
-            className="h-16 sm:h-20 brightness-0 invert"
+            className="h-16 sm:h-20"
           />
         </motion.div>
 
