@@ -1,26 +1,42 @@
 import { createFileRoute } from "@tanstack/react-router";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Services from "../components/Services";
+import WhyUs from "../components/WhyUs";
+import Location from "../components/Location";
+import CtaSection from "../components/CtaSection";
+import Footer from "../components/Footer";
 
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    meta: [
+      { title: "AM Clínica - Medicina e Segurança do Trabalho" },
+      {
+        name: "description",
+        content:
+          "Soluções completas em Medicina e Segurança do Trabalho. Reduza riscos trabalhistas e mantenha sua empresa 100% regularizada. Atendimento em todo DF.",
+      },
+      { property: "og:title", content: "AM Clínica - Medicina e Segurança do Trabalho" },
+      {
+        property: "og:description",
+        content:
+          "Soluções completas em Medicina e Segurança do Trabalho para sua empresa. 500+ empresas atendidas.",
+      },
+    ],
+  }),
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
-
 function Index() {
-  return <PlaceholderIndex />;
+  return (
+    <main>
+      <Hero />
+      <About />
+      <Services />
+      <WhyUs />
+      <Location />
+      <CtaSection />
+      <Footer />
+    </main>
+  );
 }
