@@ -50,7 +50,7 @@ export default function Hero() {
           <img
             src={logoAm}
             alt="AM Clínica de Medicina do Trabalho"
-            className="h-16 sm:h-20"
+            className="h-[74px] sm:h-[92px]"
           />
         </motion.div>
 
