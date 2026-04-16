@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { CheckCircle, MessageCircle, ArrowRight, Zap } from "lucide-react";
+import logoAm from "@/assets/logo-am.png";
 
 const stats = [
   { value: "500+", label: "Empresas atendidas" },
