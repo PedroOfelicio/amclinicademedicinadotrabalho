@@ -7,6 +7,7 @@ import WhyUs from "../components/WhyUs";
 import Location from "../components/Location";
 import CtaSection from "../components/CtaSection";
 import Footer from "../components/Footer";
+import WhatsAppFloat from "../components/WhatsAppFloat";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -39,6 +40,7 @@ function Index() {
       <Location />
       <CtaSection />
       <Footer />
+      <WhatsAppFloat />
     </main>
   );
 }
