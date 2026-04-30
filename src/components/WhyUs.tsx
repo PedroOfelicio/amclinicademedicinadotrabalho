@@ -3,7 +3,7 @@ import { Zap, Handshake, Building2, UserCheck, Heart, Eye, Compass, Gem } from "
 
 const differentials = [
   { icon: Zap, title: "Atendimento ágil", desc: "Sem burocracia, com rapidez e eficiência" },
-  { icon: Handshake, title: "Parcerias sólidas", desc: "Laboratórios confiáveis como o Sabin" },
+  { icon: Handshake, title: "Parcerias sólidas", desc: "Parceria com clínicas e laboratórios referência no DF e Brasil" },
   { icon: Building2, title: "Estrutura completa", desc: "Equipamentos modernos e ambiente confortável" },
   { icon: UserCheck, title: "Equipe especializada", desc: "Profissionais com ampla experiência" },
   { icon: Heart, title: "Atendimento personalizado", desc: "Soluções sob medida para cada empresa" },

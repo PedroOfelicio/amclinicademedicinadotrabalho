@@ -27,7 +27,7 @@ export default function About() {
           </h2>
           <p className="max-w-3xl mx-auto text-muted-foreground text-lg leading-relaxed">
             A AM Clínica atua na prevenção, diagnóstico e gestão de saúde ocupacional, ajudando
-            empresas a manterem seus colaboradores seguros e suas operações dentro da lei. Com anos
+            empresas a manterem seus colaboradores seguros e suas operações em conformidade com a lei. Com anos
             de experiência no mercado, somos referência em medicina do trabalho no Distrito Federal.
           </p>
         </motion.div>
