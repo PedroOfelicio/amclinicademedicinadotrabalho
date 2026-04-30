@@ -25,7 +25,7 @@ export default function Location() {
             Localização
           </h2>
           <p className="max-w-xl mx-auto text-muted-foreground text-lg">
-            Localização estratégica na Asa Norte, com fácil acesso para empresas
+            Localização estratégica na Asa Norte, com fácil acesso para empresas e colaboradores
           </p>
         </motion.div>
 

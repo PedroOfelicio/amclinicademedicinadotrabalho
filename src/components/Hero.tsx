@@ -50,7 +50,7 @@ export default function Hero() {
           <img
             src={logoAm}
             alt="AM Clínica de Medicina do Trabalho"
-            className="h-[74px] sm:h-[92px]"
+            className="h-[110px] sm:h-[140px]"
           />
         </motion.div>
 
@@ -179,7 +179,7 @@ export default function Hero() {
             </span>
             <span className="flex items-center gap-2">
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-200" />
-              Parcerias com laboratórios confiáveis
+              Laboratórios de excelência
             </span>
           </div>
         </div>

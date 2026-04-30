@@ -83,7 +83,7 @@ export default function Services() {
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 rounded-xl bg-primary px-8 py-4 text-base font-bold text-primary-foreground shadow-lg shadow-primary/20 transition-all hover:shadow-xl hover:scale-105"
           >
-            Solicitar orçamento — Resposta em minutos
+            Solicitar orçamento
             <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
           </a>
         </motion.div>
