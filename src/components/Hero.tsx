@@ -4,7 +4,7 @@ import logoAm from "@/assets/logo-am.png";
 
 const stats = [
   { value: "500+", label: "Empresas atendidas" },
-  { value: "15+", label: "Anos de experiência" },
+  { value: "13+", label: "Anos de experiência" },
   { value: "10k+", label: "Exames realizados" },
   { value: "100%", label: "Conformidade legal" },
 ];
