@@ -3,11 +3,13 @@ import clinica1 from "@/assets/clinica-1.jpeg";
 import clinica2 from "@/assets/clinica-2.jpeg";
 import clinica3 from "@/assets/clinica-3.jpeg";
 import clinica4 from "@/assets/clinica-4.jpeg";
+import clinica5 from "@/assets/clinica-5.jpeg";
 
 const images = [
   { src: clinica2, alt: "Sala de espera da AM Clínica", span: "lg:col-span-2 lg:row-span-2" },
   { src: clinica1, alt: "Recepção da AM Clínica", span: "" },
   { src: clinica3, alt: "Consultório médico com vista", span: "" },
+  { src: clinica5, alt: "Entrada da AM Clínica - Clínica da Família e Medicina do Trabalho", span: "" },
   { src: clinica4, alt: "Área de copa e atendimento", span: "lg:col-span-2" },
 ];
 
