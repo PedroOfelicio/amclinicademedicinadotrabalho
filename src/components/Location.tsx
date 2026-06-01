@@ -73,6 +73,7 @@ export default function Location() {
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-primary-foreground flex-shrink-0">
                   <Clock className="h-6 w-6" />
                 </div>
+                {/* Horario adicionado */}
                 <div>
                   <h3 className="text-lg font-bold text-foreground mb-1">Horário de funcionamento</h3>
                   <p className="text-muted-foreground text-sm">
