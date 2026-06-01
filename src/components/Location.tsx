@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, ExternalLink } from "lucide-react";
+import { MapPin, ExternalLink, Clock } from "lucide-react";
 
 const WA_LINK =
   "https://wa.me/5561991364565?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20visita.";
@@ -65,6 +65,18 @@ export default function Location() {
                   <h3 className="text-lg font-bold text-foreground mb-1">AM Medicina do Trabalho</h3>
                   <p className="text-muted-foreground text-sm">
                     SEPN CRN 504 Ed Virgo, Bloco B - Asa Norte, Brasília - DF, 70836-100
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 mb-6 pt-6 border-t border-border">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-primary-foreground flex-shrink-0">
+                  <Clock className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-foreground mb-1">Horário de funcionamento</h3>
+                  <p className="text-muted-foreground text-sm">
+                    Segunda a sexta, das 8h às 12h e das 14h às 18h
                   </p>
                 </div>
               </div>
