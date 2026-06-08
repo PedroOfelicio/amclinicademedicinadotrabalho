@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { MapPin, ExternalLink, Clock } from "lucide-react";
 
+// trigger deploy
+
 const WA_LINK =
   "https://wa.me/5561991364565?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20visita.";
 
