@@ -78,9 +78,14 @@ export default function Location() {
                 {/* Horario adicionado */}
                 <div>
                   <h3 className="text-lg font-bold text-foreground mb-1">Horário de funcionamento</h3>
-                  <p className="text-muted-foreground text-sm">
-                    Segunda a sexta, das 8h às 12h e das 14h às 18h
-                  </p>
+                  <ul className="text-muted-foreground text-sm space-y-1 list-disc pl-4">
+                    <li>Segunda, quarta e sexta: 08h00 às 12h00</li>
+                    <li>Terça e quinta: 14h00 às 17h45</li>
+                  </ul>
+                  <h4 className="text-base font-semibold text-foreground mt-4 mb-1">Exames Toxicológicos para CNH</h4>
+                  <ul className="text-muted-foreground text-sm space-y-1 list-disc pl-4">
+                    <li>Segunda a sexta: 08h00 às 12h00 e 14h00 às 17h45</li>
+                  </ul>
                 </div>
               </div>
 
